@@ -1,0 +1,130 @@
+body {
+  background-color: #032605;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  /*
+  background-image: url('logos/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  */
+}
+summary {
+  cursor: grab;
+  /* cursor: pointer; */
+}
+
+ul {
+  cursor: default;
+  display: block;
+}
+
+li {
+  display: inline-block;
+  width: 170px;
+  margin: 0;
+}
+/*li {
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  max-width: 160px;
+  /* margin: 5px; * /
+  /* border: 1PX solid #78f2ff; * /
+  border: 1px solid #404040;
+}*/
+
+a, a:visited {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  color: #95deff;
+  background-color: #002a03;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+a:hover, a:focus {
+  color: #ddd;
+  background-color: #004201;
+}
+
+.card {
+  /* border: 1px solid #ccc;
+     border-radius: 4px; */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-height: 80px;
+  /* width: 80px; */
+  max-width: 80px; 
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 8px;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  background-color: white;
+  color: black;
+}
+
+
+/* Suchleisten-Container */
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+/* Suchleisten-Formular */
+form {
+  display: flex;
+  align-items: center;
+  background-color: #363636;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  height: 40px;
+  overflow: hidden;
+  width: 300px;
+}
+
+/* Suchleisten-Texteingabe */
+input[type="text"] {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  height: 100%;
+  padding: 0 10px;
+  width: 100%;
+}
+
+/* Suchleisten-Suchbutton */
+input[type="submit"] {
+  background-color: #4343c5;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  height: 100%;
+  padding: 0 10px;
+}
+
+/* Suchleisten-Löschen-Button */
+input[type="button"] {
+  background-color: #881111;
+  border: none;
+  color: #f00;
+  font-size: 16px;
+  height: 100%;
+  padding: 0 10px;
+}
+
