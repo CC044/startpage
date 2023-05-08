@@ -92,7 +92,7 @@ form {
   align-items: center;
   background-color: #363636;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  height: 40px;
+  height: 48px;
   overflow: hidden;
   width: 300px;
 }
@@ -116,6 +116,7 @@ input[type="submit"] {
   font-size: 16px;
   height: 100%;
   padding: 0 10px;
+  width: 48px;
 }
 
 /* Suchleisten-Löschen-Button */
@@ -126,5 +127,6 @@ input[type="button"] {
   font-size: 16px;
   height: 100%;
   padding: 0 10px;
+  width: 48px;
 }
 
