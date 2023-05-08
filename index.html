@@ -6,7 +6,8 @@
     <title>StartTreeV2</title>
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <!-- <link href="colors.css" rel="stylesheet" type="text/css"/> -->
-    <link rel="alternate icon" type="image/svg" href="file:///usr/share/icons/Luna-Dark/scalable/apps/unity-online-accounts.svg">
+    <link rel="alternate icon" type="image/svg" href="logos/home.svg">
+    <link rel="manifest" href="/manifest.json">
     <link rel="dns-prefetch" href="https://https://studip.hochschule-trier.de/" />
     <link rel="preconnect" href="https://https://studip.hochschule-trier.de/" crossorigin=anonymous />
   </head>
@@ -433,6 +434,12 @@
       </details> -->
     </main>
     <script defer >
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/sw.js');
+        });
+      }
+
       const delSearchBarBtn = document.getElementById('delSearchBarBtn');
       const delSearchBarInput = document.getElementById('delSearchBarInput');
     
