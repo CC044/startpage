@@ -3,7 +3,7 @@ const CACHE_NAME = 'my-cache';
 const urlsToCache = [
   '/',
   '/style.css',
-  '/logos/
+  '/logos/'
 ];
 
 const cacheResources = async () => {
