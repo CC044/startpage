@@ -19,6 +19,7 @@ summary {
 ul {
   cursor: default;
   display: block;
+  padding: 0;
 }
 
 li {
