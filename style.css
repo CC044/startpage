@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #032605;
   color: white;
@@ -10,16 +13,29 @@ body {
   background-attachment: fixed;
   background-size: cover;
   */
+  margin:0;
 }
 summary {
   cursor: grab;
   /* cursor: pointer; */
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 ul {
   cursor: default;
   display: block;
   padding: 0;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 li {
@@ -42,6 +58,12 @@ a, a:visited {
   text-align: center;
   margin: 0;
   padding: 10px 0;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
   color: #95deff;
   background-color: #002a03;
   transition-duration: 0.5s;
@@ -58,6 +80,27 @@ a:hover, a:focus {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   width: 100%;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  filter: grayscale(90%);
+}
+.card:hover {
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  filter: none;
+}
+
+
+.cardImg {
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: 5vw;
+  margin: 0 4vw;
 }
 
 img {
@@ -67,12 +110,24 @@ img {
   /* width: 80px; */
   max-width: 80px; 
   margin: 0;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 p {
   margin: 0;
   padding: 8px;
   text-align: center;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -98,6 +153,15 @@ form {
   width: 300px;
 }
 
+input {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 /* Suchleisten-Texteingabe */
 input[type="text"] {
   background-color: transparent;
@@ -111,7 +175,7 @@ input[type="text"] {
 
 /* Suchleisten-Suchbutton */
 input[type="submit"] {
-  background-color: #4343c5;
+  background-color: #1b761d;
   border: none;
   color: #fff;
   font-size: 16px;
