@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  background-color: #032605;
 }
 body {
   background-color: #032605;
@@ -14,6 +15,9 @@ body {
   background-size: cover;
   */
   margin:0;
+}
+main {
+  padding-bottom: 5vw;
 }
 summary {
   cursor: grab;
@@ -40,7 +44,8 @@ ul {
 
 li {
   display: inline-block;
-  width: 170px;
+  width: 12vw;
+  min-width: 170px;
   margin: 0;
 }
 /*li {
@@ -57,7 +62,7 @@ a, a:visited {
   display: block;
   text-align: center;
   margin: 0;
-  padding: 10px 0;
+  padding: 0.7vw 0;
   user-drag: none; 
   user-select: none;
   -moz-user-select: none;
@@ -120,7 +125,7 @@ img {
 
 p {
   margin: 0;
-  padding: 8px;
+  padding: 0.6vw;
   text-align: center;
   user-drag: none; 
   user-select: none;
@@ -150,7 +155,7 @@ form {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   height: 48px;
   overflow: hidden;
-  width: 300px;
+  width: 21vw;
 }
 
 input {
@@ -167,7 +172,7 @@ input[type="text"] {
   background-color: transparent;
   border: none;
   color: #fff;
-  font-size: 16px;
+  font-size: 1em;
   height: 100%;
   padding: 0 10px;
   width: 100%;
@@ -178,10 +183,10 @@ input[type="submit"] {
   background-color: #1b761d;
   border: none;
   color: #fff;
-  font-size: 16px;
+  font-size: 1em;
   height: 100%;
   padding: 0 10px;
-  width: 48px;
+  width: 21vw;
 }
 
 /* Suchleisten-Löschen-Button */
@@ -189,9 +194,9 @@ input[type="button"] {
   background-color: #720f23;
   border: none;
   color: #f00;
-  font-size: 16px;
+  font-size: !1em;
   height: 100%;
   padding: 0 10px;
-  width: 48px;
+  width: 21vw;
 }
 
