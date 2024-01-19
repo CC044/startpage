@@ -4,7 +4,7 @@
 Startpage with bookmarks.
 
 ## Page
-- [Github.io](https://startpage.github.io)
+- [Github.io](https://crispy-cookie.github.io/startpage/)
 - [Replit](https://replit.com/@cc04411/startpage#README.md)
 - [Render](startpagecc.onrender.com)
 
